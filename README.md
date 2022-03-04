@@ -1,4 +1,4 @@
-﻿
+
 # Android Sinch SDK - Getting Started
 
   
@@ -315,5 +315,28 @@ class AppFirebaseMessagingService : FirebaseMessagingService() {
 	}
 }
 ```
+
+
+#### Troubleshooting
+
+You may found issue with building your application. It is related to dependencies which we're using which are related to Protobuf. 
+
+Paste those lines in your android {} in build.gradle.
+
+
+```
+android {
+    ... 
+
+    configurations {
+        implementation.exclude module:'protolite-well-known-types'
+        implementation.exclude module:'protobuf-lite'
+    }
+}
+
+```
+
+
+
 
   
