@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sinch.chat.sdk</groupId>
   <artifactId>sinch-chat-sdk</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -70,6 +70,12 @@
       <artifactId>grpc-okhttp</artifactId>
       <groupId>io.grpc</groupId>
       <version>1.41.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <artifactId>osmdroid-android</artifactId>
+      <groupId>org.osmdroid</groupId>
+      <version>6.1.10</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
