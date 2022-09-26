@@ -1,0 +1,22 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+
+        maven {
+            url "https://raw.githubusercontent.com/sinchlabs/sinch-chat-android-sdk/master/releases"
+            credentials(HttpHeaderCredentials) {
+                name = "Authorization"
+                value = "Bearer {{ github_personal_access_token }}"
+            }
+            authentication {
+                header(HttpHeaderAuthentication)
+            }
+        }
+
+    }
+}
+rootProject.name = "SinchChatExample"
+include ':app'
