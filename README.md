@@ -316,6 +316,15 @@ class AppFirebaseMessagingService : FirebaseMessagingService() {
 }
 ```
 
+### Start conversation when starting the Chat.
+
+If you want to initialise conversation for you user, then you have to start chat with following option like in example below:
+
+```
+val options = SinchStartChatOptions(shouldInitializeConversation = true)
+SinchChatSDK.chat.start(this, options)
+```
+
 
 #### Troubleshooting
 
