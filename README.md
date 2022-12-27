@@ -76,7 +76,10 @@ implementation 'com.sinch.chat.sdk:sinch-sdk:{version}'
 
 ```kotlin
 
-<activity android:name="com.sinch.chat.sdk.SinchChatActivity"/>
+<activity 
+    android:name="com.sinch.chat.sdk.SinchChatActivity"
+    android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+/>
 
 ```
 
