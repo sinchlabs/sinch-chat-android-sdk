@@ -3,11 +3,11 @@
   <groupId>com.sinch.chat.sdk</groupId>
   <artifactId>sinch-chat-sdk</artifactId>
   <versioning>
-    <latest>0.6.0</latest>
-    <release>0.6.0</release>
+    <latest>0.6.1</latest>
+    <release>0.6.1</release>
     <versions>
-      <version>0.6.0</version>
+      <version>0.6.1</version>
     </versions>
-    <lastUpdated>20230216055945</lastUpdated>
+    <lastUpdated>20230221101159</lastUpdated>
   </versioning>
 </metadata>
