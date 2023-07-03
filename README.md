@@ -143,6 +143,8 @@ We need to have configuration for chat which we’re providing to you it means y
 
 - Client ID
 
+- Config ID (provide "" if you don't have it)
+
 - *_(Optional)_* Token secret
 
   
@@ -168,7 +170,7 @@ Example:
 ```kotlin
 
 val currentIdentity = SinchIdentity.SelfSigned({your user_id}, {signed token})
-val currentEnvironment = SinchConfig({your client_id}, {your project_id}, {your region}, {language})
+val currentEnvironment = SinchConfig({your client_id}, {your project_id}, {you config_id}, {your region}, {language})
 
 SinchChatSDK.setIdentity(  
     currentEnvironment,  
