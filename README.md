@@ -29,13 +29,6 @@ settings.gradle
 
 maven {
 	url "https://raw.githubusercontent.com/sinchlabs/sinch-chat-android-sdk/master/releases"
-	credentials(HttpHeaderCredentials) {
-		name = "Authorization"
-		value = "Bearer {your github personal token}"
-	}
-	authentication {
-		header(HttpHeaderAuthentication)
-	}
 }
 
 ```
