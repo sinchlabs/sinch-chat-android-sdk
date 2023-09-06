@@ -39,7 +39,7 @@ build.gradle
 
 ```
 
-implementation 'com.sinch.chat.sdk:sinch-sdk:{version}'
+implementation 'com.sinch.chat.sdk:sinch-chat-sdk:{version}'
 
 ```
 
