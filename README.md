@@ -73,7 +73,10 @@ implementation 'com.sinch.chat.sdk:sinch-chat-sdk:{version}'
     android:name="com.sinch.chat.sdk.SinchChatActivity"
     android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
 />
-
+<activity
+    android:name="com.sinch.chat.sdk.SinchInboxChatActivity"
+    android:configChanges="orientation|screenSize|screenLayout|keyboardHidden" 
+/>
 ```
 
   
